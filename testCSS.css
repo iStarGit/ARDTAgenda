@@ -1,0 +1,50 @@
+body
+{
+	background-color: #f4f4f4;
+	font-family: Verdana
+}
+.monthPre
+{
+	color: gray;
+	text-align: center;
+}
+
+.monthNow
+{
+	color:blue;
+	text-align: center;
+}
+
+.dayNow
+{
+	border: 2px solid black;
+	color: #ff0000;
+	text-align:center;
+}
+
+.calendar td
+{
+	htmlContent: 2px;
+	width: 40x;
+}
+
+.monthNow th
+{
+	background-color: #c0b283; /* Month Name */
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+table
+{
+	width: 100%;
+}
+.dayNames
+{
+	background: #dcd0c0;
+	color: #FFFFFF;
+	text-align: center;
+}

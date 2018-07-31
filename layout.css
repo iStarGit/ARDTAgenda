@@ -1,0 +1,44 @@
+*
+{
+	box-sizing: border-box;
+}
+
+/* margin and padding to 0px makes everything take up the whole page. */
+body 
+{
+	margin: 0px;
+	padding: 0px; 
+}
+.column
+{
+	float:left;
+	width: 25%;
+}
+
+.column h2
+{
+	padding-top: 15%;
+	padding-left: 125px;	
+}
+
+.one
+{
+	background-color: #55bcC9;
+	height: 33.4%;
+}
+.two
+{
+	background-color: #3feee6;
+	height: 33.3%;
+}
+
+.three
+{
+	background-color: #97caef;
+	height: 33.3%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
