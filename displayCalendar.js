@@ -87,6 +87,8 @@ function displayCalendar()
 
 	//set content of div
 	document.getElementById("calendar").innerHTML=calendarBody;	
+
+
 }
 
 function calculateFebDays(month)
@@ -107,5 +109,6 @@ function calculateFebDays(month)
 
 	}
 }
+
 
 

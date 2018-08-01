@@ -3,6 +3,34 @@ body
 	background-color: #f4f4f4;
 	font-family: Verdana
 }
+
+button
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: #808080;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    outline:none;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.prev
+{
+	float: left;
+}
+
+.next
+{
+	float: right;
+	padding-top: 10px;
+}
 .monthPre
 {
 	color: gray;
